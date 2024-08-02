@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    body{
+        background-color: aqua;
+        font-family: 'Trebuchet MS';
+    }
+
+    ol{
+        justify-content: center;
+        display: flex;
+        margin-left: 20px;
+        padding: 30px;
+        font-size: 20px bold;
+        font-family: 'Segoe UI';
+        left: 50%;
+        
+    }
+    .container{
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        height: 90vh;
+        width: 70vh;
+        box-shadow: inset -8px -8px 12px #6790b9,
+                    inset 8px 8px 12px rgb(61, 141, 233);
+        border-radius: 50px;
+    }
+
+    .content{
+        top: 60%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-50%);
+    }
+
+  h1 {
+    color: #333;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 2
+    0px;
+  }
+
+  .container img{
+    width: 150px;
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: flex;
+  }
+
+  .inputarea{
+    display: flex;
+  } 
+
+.inputarea input{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+    outline: none;
+    border: 2px solid #185371;
+    padding: 20px 40px;
+    font-size: 40px;
+}
+  
+  button {
+    padding: 10px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #428ede;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
